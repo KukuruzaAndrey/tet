@@ -93,7 +93,7 @@ void eval(const char *corePath, char *coreInputs) {
   snprintf(coreArgs, sizeof(coreArgs), "%s %s", corePath, coreInputs);
   // printf("runner: args: %s\n", coreArgs);
   // Open pipe with core
-  FILE *core = checkError(popen(coreArgs, "r"), coreArgs);
+  FILE *core = checkNull(popen(coreArgs, "r"), coreArgs);
   fprintf(logs, "%s", coreInputs);
 
   unsigned line = 0;
@@ -143,7 +143,7 @@ int main(int argc, char **argv) {
             argv[8], argv[9], argv[10], argv[11]);
   }
 
-  logs = checkError(fopen("logs.txt", "a+"), "logs.txt");
+  logs = checkNull(fopen("logs.txt", "a+"), "logs.txt");
 
 
   enableRawMode();

@@ -2,7 +2,9 @@
 
 # C #
 /srcs/c/core
-
+# HASKELL #
+srcs/haskell/*
+!srcs/haskell/core.hs
 # JAVA #
 srcs/java/*.class
 
@@ -14,7 +16,7 @@ one-runner
 one-cases.txt
 
 # automaticaly generated tests
-test/cases/05_rotate-counter-clockwise/0_I/
-test/cases/05_rotate-counter-clockwise/3_S/
-test/cases/05_rotate-counter-clockwise/4_Z/
-test/cases/05_rotate-counter-clockwise/5_O/
+test/1-main-cases/05_rotate-counter-clockwise/0_I/
+test/1-main-cases/05_rotate-counter-clockwise/3_S/
+test/1-main-cases/05_rotate-counter-clockwise/4_Z/
+test/1-main-cases/05_rotate-counter-clockwise/5_O/

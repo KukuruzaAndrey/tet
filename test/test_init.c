@@ -80,7 +80,7 @@ void run(const char* corePath) {
   snprintf(coreArgs, sizeof(coreArgs), "%s %s", corePath, "INIT_STATE");
   for (int i = 0; i < PIECE_COUNT; ++i) {
 
-    corePipe = checkError(popen(coreArgs, "r"), coreArgs);
+    corePipe = checkNull(popen(coreArgs, "r"), coreArgs);
 
     // read lines from core - actual result of next inputs
     fgets(actualNextStepResult, ARGS_SIZE, corePipe);
@@ -109,8 +109,7 @@ void run(const char* corePath) {
       if (verbose) printf("%s\n", actualRenderResult);
     } else {
       printf("%s - %sFailed%s\n", "INIT_STATE", RED, RESET);
-      printf("strlen(actualRenderResult) - %lu   strlen(renderER[cur]) - %lu\n", strlen(actualRenderResult),
-             strlen(renderER[cur]));
+      printf("strlen(actualRenderResult) - %lu   strlen(renderER[cur]) - %lu\n", strlen(actualRenderResult), strlen(renderER[cur]));
       printf("Actual Result:\n%s\n", actualRenderResult);
       printf("Expected Result:\n%s\n\n", renderER[cur]);
       printf("%s%s%s\n", RED, "FAIL", RESET);
@@ -147,7 +146,7 @@ int main(int argc, char **argv) {
     verbose = 1;
   }
 
-  FILE *erFP = checkError(fopen(argv[1], "r"), argv[1]);
+  FILE *erFP = checkNull(fopen(argv[1], "r"), argv[1]);
   readER(erFP);
   run(argv[2]);
   // printf("%s%s%s\n", GREEN, "SUCCESS", RESET);

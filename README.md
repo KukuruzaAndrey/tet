@@ -16,9 +16,13 @@ make PL=C   #JS, etc
 ```
 
 ### Done languages
-- [x] C
-- [x] JS
-- [x] JAVA
+|        Done        | Lang                      | Make flag |
+|:------------------:|---------------------------|-----------|
+| :heavy_check_mark: | [C](./srcs/c)             | C         |
+| :heavy_check_mark: | [JavaScript](./srcs/js)   | JS        |
+| :heavy_check_mark: | [Java](./srcs/java)       | JAVA      |
+| :heavy_check_mark: | [Haskell](./srcs/haskell) | HASKELL   |
+
 
 ### Test
 ```

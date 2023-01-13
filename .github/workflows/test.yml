@@ -13,18 +13,18 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Prepare test
+      - name: Determinate language of implemantations with changes
         run: |
           set -xe
-          java --version
-          test_diff_list=$( git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | \
+          echo "DIFF_PL_LIST=$( git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | \
                           fgrep srcs | \
                           awk -F '/' '{print $2}' | \
                           tr "[:lower:]" "[:upper:]" | \
                           uniq | \
-                          tr '\n' ' ' )
-          echo $test_diff_list
-          export TEST_DIFF_LIST=$test_diff_list
+                          tr '\n' ' ' )" >> $GITHUB_ENV
       - name: Run tests
-        run: make test_diff
+        run: |
+          set -xe
+          # maybe TODO: split languages to github.action.matrix. Benifit - better grouping logs in CI, cons - harder porting to different CI
+          make test_diff
 

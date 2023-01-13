@@ -5,6 +5,10 @@ class core {
     if (args.length == 10) {
       Game game = new Game(args);
       game.update();
+      if (game.endGame()) {
+        System.out.println("Game over!");
+        return;
+      }
       System.out.println(game.getNextState());
       System.out.println(game.render());
     } else if (args.length == 1 && args[0].equals("INIT_STATE")) {
@@ -12,7 +16,7 @@ class core {
       System.out.println(game.getNextState());
       System.out.println(game.render());
     } else {
-      System.out.println("wrong arguments");
+      System.out.println("incorrect arguments");
     }
   }
 }
@@ -328,6 +332,10 @@ class Board extends RenderBoard {
     return String.format("%s %s %s", strBoard, bf, sb);
   }
 
+  public boolean endGame() {
+    return !canPlace();
+  }
+
   private boolean isLegalCoords(int[][] coords)  {
     return Arrays.stream(coords).allMatch(pair -> {
         int x = pair[0];
@@ -352,10 +360,6 @@ class Board extends RenderBoard {
     return can;
   }
 
-  private boolean endGame() {
-    return !canPlace();
-  }
-
   private void addFigure() {
     Arrays.stream(bf.getCoords()).forEach(pair -> {
         int x = pair[0];
@@ -377,17 +381,17 @@ class Board extends RenderBoard {
   }
 
   private int removeFullLines() {
-    int countFullLines = 0;
+    int fullLinesCount = 0;
     for (int y = 0; y < BOARD_H; y++) {
       boolean full = Arrays.stream(board[y]).allMatch(c -> c != 0);
       if (full) {
         System.arraycopy(board, 0, board, 1, y);
         board[0] = new int[BOARD_W];
-        countFullLines++;
+        fullLinesCount++;
       }
     }
 
-    return countFullLines;
+    return fullLinesCount;
   }
 
   private String renderLine(int y) {
@@ -423,10 +427,6 @@ class Board extends RenderBoard {
     sb.addScore(SCORES[fl]);
     bf = new BoardFigure(sb.getFigIndex(), sb.getColor());
     sb.newFigure();
-    if (endGame()) {
-      System.out.println("Game over!");
-      System.exit(0);
-    }
   }
 
   public void moveDown() {
@@ -506,5 +506,9 @@ class Game {
   public String render() {
     return board.render();
   }
-}
 
+  public Boolean endGame() {
+    return board.endGame();
+  }
+
+}
