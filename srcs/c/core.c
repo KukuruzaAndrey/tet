@@ -119,7 +119,7 @@ void removeFullLines(struct state *state) {
 
   if (countFullLines > 0) {
     // update score
-    state->score += SCORES[countFullLines - 1];
+    state->score += SCORES[countFullLines];
 
     // add new empty lines
     memset(state->board[0], 0, countFullLines * (sizeof state->board[0]));
@@ -135,7 +135,7 @@ void createNewFig(struct state *state) {
   state->offsetY = -1 * FIGURES[state->figIndex].rotations[0].ofy;
   state->rotateIndex = 0;
 
-  // calculate new 
+  // calculate new
   state->nextFigIndex = getRandomIntInclusive(0, FIG_COUNT - 1);
   state->nextFigColor = getRandomIntInclusive(1, COLORS_COUNT - 1);
 }
@@ -189,10 +189,6 @@ void processNewFigure(struct state *state) {
   addPieceToBoard(state);
   removeFullLines(state);
   createNewFig(state);
-  if (checkEndGame(state)) {
-    printf("%s\n", "Game over!");
-    exit(0);
-  }
 }
 
 void update(struct state *state) {
@@ -336,6 +332,10 @@ int main(int argc, char **argv) {
   if (argc == 11) {
     parseState(argv, &state);
     update(&state);
+    if (checkEndGame(&state)) {
+      printf("%s\n", "Game over!");
+      return 0;
+    }
     printState(&state);
     render(res, &state);
     printf("%s\n", res);
@@ -352,4 +352,3 @@ int main(int argc, char **argv) {
   }
   return 0;
 }
-

@@ -1,0 +1,712 @@
+cc -Wall -Werror -ggdb3 -std=c11    test/test.c utils.c   -o test/test
+test/test  ./srcs/c/core test/0-init-cases/init-case-results.txt test/1-main-cases test/2-end-cases/
+piece_number 4
+INIT_STATE:4 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 3
+INIT_STATE:3 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 4
+INIT_STATE:4 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 4
+INIT_STATE:4 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 5
+INIT_STATE:5 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 2
+INIT_STATE:2 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 2
+INIT_STATE:2 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 5
+INIT_STATE:5 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 3
+INIT_STATE:3 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 5
+INIT_STATE:5 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 0
+INIT_STATE:0 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 5
+INIT_STATE:5 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 0
+INIT_STATE:0 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 6
+INIT_STATE:6 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 3
+INIT_STATE:3 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 0
+INIT_STATE:0 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 0
+INIT_STATE:0 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+piece_number 1
+INIT_STATE:1 - [32mPassed[m
+INIT_STATE - [32mPassed[m
+entry test/1-main-cases
+entry test/1-main-cases/00_smoke
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+test/1-main-cases/00_smoke/1_colors.txt - [32mPassed[m
+ret=0
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+test/1-main-cases/00_smoke/2_rotations.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/00_smoke
+entry test/1-main-cases/07_lines$
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+test/1-main-cases/07_lines$/03_clear-line-combinations.txt - [32mPassed[m
+ret=0
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/04_all-figures-clear.txt - [32mPassed[m
+ret=0
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/01_10blocks-clear.txt - [32mPassed[m
+ret=0
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+test/1-main-cases/07_lines$/00_9blocks-dont-clear.txt - [32mPassed[m
+ret=0
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+test/1-main-cases/07_lines$/02_I-dont-clear-while-fall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/07_lines$
+entry test/1-main-cases/01_move-down
+entry test/1-main-cases/01_move-down/3_S
+entry test/1-main-cases/01_move-down/3_S/1
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/1/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/3_S/1
+entry test/1-main-cases/01_move-down/3_S/0
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/0/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/3_S/0/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/3_S/0
+leave test/1-main-cases/01_move-down/3_S
+entry test/1-main-cases/01_move-down/5_O
+entry test/1-main-cases/01_move-down/5_O/0
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/5_O/0/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/5_O/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/5_O/0/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/5_O/0
+leave test/1-main-cases/01_move-down/5_O
+entry test/1-main-cases/01_move-down/4_Z
+entry test/1-main-cases/01_move-down/4_Z/1
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/1/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/4_Z/1
+entry test/1-main-cases/01_move-down/4_Z/0
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/0/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/4_Z/0/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/4_Z/0
+leave test/1-main-cases/01_move-down/4_Z
+entry test/1-main-cases/01_move-down/2_J
+entry test/1-main-cases/01_move-down/2_J/1
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/1/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/2_J/1
+entry test/1-main-cases/01_move-down/2_J/0
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/0/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/0/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/2_J/0
+entry test/1-main-cases/01_move-down/2_J/2
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/2/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/2_J/2
+entry test/1-main-cases/01_move-down/2_J/3
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/2_J/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/2_J/3/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/2_J/3
+leave test/1-main-cases/01_move-down/2_J
+entry test/1-main-cases/01_move-down/1_L
+entry test/1-main-cases/01_move-down/1_L/1
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/1/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/1_L/1
+entry test/1-main-cases/01_move-down/1_L/0
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/0/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/0/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/1_L/0
+entry test/1-main-cases/01_move-down/1_L/2
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/2/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/1_L/2
+entry test/1-main-cases/01_move-down/1_L/3
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/0_top.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/3$_tunnel.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/1_L/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/2$_wall.txt - [32mPassed[m
+test/1-main-cases/01_move-down/1_L/3/2$_wall.txt - [32mPassed[m
+ret=0
+leave test/1-main-cases/01_move-down/1_L/3
+leave test/1-main-cases/01_move-down/1_L
+entry test/1-main-cases/01_move-down/0_I
+entry test/1-main-cases/01_move-down/0_I/1
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/1$_bottom.txt - [32mPassed[m
+ret=0
+test/1-main-cases/01_move-down/0_I/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/0_top.txt - [32mPassed[m
+test/1-main-cases/01_move-down/0_I/1/0_top.txt - [32mPassed[m
+test/

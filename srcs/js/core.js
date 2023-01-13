@@ -1,11 +1,11 @@
 const BOARD_W = 10
 const BOARD_H = 20
-const SCORES = [10, 30, 60, 100]
+const SCORES = [0, 10, 30, 60, 100]
 const MOVES = {
-  DOWN: 0, 
-  LEFT: 1, 
-  RIGHT: 2, 
-  ROTATE_CLOCKWISE: 3, 
+  DOWN: 0,
+  LEFT: 1,
+  RIGHT: 2,
+  ROTATE_CLOCKWISE: 3,
   ROTATE_COUNTER_CLOCKWISE: 4,
   DROP: 5,
 }
@@ -103,7 +103,7 @@ const removeFullLines = state => {
   const boardWithoutFillLines = state.board.filter(line => line.some(c => c === 0))
   if (boardWithoutFillLines.length < BOARD_H) {
     // update score
-    state.score += SCORES[BOARD_H - boardWithoutFillLines.length - 1]
+    state.score += SCORES[BOARD_H - boardWithoutFillLines.length]
 
     // add new empty lines
     const newLines = []
@@ -119,12 +119,12 @@ const createNewFig = state => {
   // replace known things
   state.figIndex = state.nextFigIndex
   state.color = state.nextFigColor
-  
+
   state.offsetX = state.figIndex === 0 ? 3 : 4
   state.offsetY = -1 * FIGURES[state.figIndex][0].ofy
   state.rotateIndex = 0
-  
-  // calculate new 
+
+  // calculate new
   state.nextFigIndex = getRandomIntInclusive(0, FIGURES.length - 1)
   state.nextFigColor = getRandomIntInclusive(1, COLORS.length - 1)
 }
@@ -174,10 +174,6 @@ const processNewFigure = state => {
   addPieceToBoard(state)
   removeFullLines(state)
   createNewFig(state)
-  if (checkEndGame(state)) {
-    console.log('Game over!')
-    process.exit()
-  }
 }
 
 const update = (state) => {
@@ -270,8 +266,8 @@ const render = ({ move, board, figIndex, rotateIndex, color, offsetX, offsetY, n
     }
     return LEFT + line + RIGHT
   }
-  
-  
+
+
   let res = ` ${CEIL.repeat(BOARD_W)} \n`
   for (let y = 0; y < BOARD_H; y++) {
     res += LEFT + renderLine(y) + RIGHT + renderNextPieceLine(y) + '\n'
@@ -319,6 +315,10 @@ const parseState = () => {
 
 if (process.argv.length === 12) {
   const state = update(parseState())
+  if (checkEndGame(state)) {
+      console.log('Game over!')
+      return
+  }
   console.log(stateToStr(state))
   console.log(render(state))
 } else if (process.argv.length === 3 && process.argv[2] === 'INIT_STATE') {

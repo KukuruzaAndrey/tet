@@ -4,7 +4,7 @@
 #define FIG_COUNT 7
 #define COLORS_COUNT 8
 
-const int SCORES[] = {10, 30, 60, 100};
+const int SCORES[] = {0, 10, 30, 60, 100};
 enum MOVES {
   MOVE_DOWN = 0,
   MOVE_LEFT,
@@ -121,4 +121,3 @@ struct state {
 
 #define NEXT_P_BOARD_W 6
 #define NEXT_P_BOARD_H 6
-
